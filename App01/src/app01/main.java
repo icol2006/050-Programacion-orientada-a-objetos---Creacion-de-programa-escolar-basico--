@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author icol2
+ * @author 
  */
 public class main {
 

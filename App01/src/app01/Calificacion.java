@@ -7,7 +7,7 @@ package app01;
 
 /**
  *
- * @author icol2
+ * @author 
  */
 public interface Calificacion {
     public void mostrarCalificaciones();

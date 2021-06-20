@@ -7,7 +7,7 @@ package app01;
 
 /**
  *
- * @author icol2
+ * @author 
  */
 public abstract class Usuario {
     private String id;
