@@ -16,8 +16,11 @@ public class CuentaAhorro extends Cuenta {
     }
 
     public void invertir(double cantidad) {
+        //Suma monto actual mas la cantidad invertir
         double resultado = this.getMontoActual() + cantidad;
+        //Cacular el diez porciento de montoActual+cantidadInvertir
         double resultadoInteres = (resultado / 100) * 10;
+        //Sumar los intereses mas el monto total
         resultado = resultadoInteres + resultado;
         this.setMontoActual(resultado);
     }

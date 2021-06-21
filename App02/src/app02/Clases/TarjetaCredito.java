@@ -16,9 +16,12 @@ public class TarjetaCredito extends Cuenta {
     }
 
     public void sumaInteres(double cantidad) {
-        double resultado = this.getMontoActual() + cantidad;
+        //Suma monto actual mas la cantidad a retirar
+        double resultado = this.getMontoActual() - cantidad;
+        //Cacular el 15 porciento de montoActual+cantidadRetirar
         double resultadoInteres = (resultado / 100) * 15;
-        resultado = resultadoInteres - resultado;
+        //Sumar los intereses mas el monto total
+        resultado = resultado - resultadoInteres;
         this.setMontoActual(resultado);
     }
 

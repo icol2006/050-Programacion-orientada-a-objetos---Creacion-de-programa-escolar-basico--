@@ -16,7 +16,7 @@ public class App02 {
      */
     public static void main(String[] args) {
         // TODO code application logic here        
-        AppMain appMain=new AppMain();
+        AppFrame appMain=new AppFrame();
         appMain.show();
     }
     

@@ -16,7 +16,7 @@ public class TarjetaDebito extends Cuenta{
     }
 
     public void retirar(double cantidad) {
-        double resultado=this.getMontoActual()+cantidad;
+        double resultado=this.getMontoActual()-cantidad;
         this.setMontoActual(resultado);
     }
 }
